@@ -6,6 +6,7 @@ using namespace std;
 //暴力解法
 class Solution
 {
+public:
 	void sortColors(vector<int>& nums) {
 		//create four vector to save the number of 1's, 2's, 0's and the final result
 		vector<int> sample1;
