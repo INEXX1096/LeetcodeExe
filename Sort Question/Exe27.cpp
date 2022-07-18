@@ -7,6 +7,7 @@ using namespace std;
  
 class Solution
 {
+public:
    int removeElement(vector<int>& nums, int val) {
 	   //创建快慢指针(快指针在for loop 中创建)
 	   int slow = 0;
