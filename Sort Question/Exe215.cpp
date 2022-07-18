@@ -15,6 +15,8 @@ public:
             else left = pos + 1;
         }
     }
+    
+    // Sort the vector and find the position of the pivot
     int partition(vector<int>& nums, int left, int right) {
         int pivot = nums[left], l = left + 1, r = right;
         while (l <= r) {
