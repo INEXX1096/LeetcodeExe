@@ -8,6 +8,8 @@ using namespace std;
 class Solution
 {
 public:
+	//sort 的判断条件
+	//E.g. 930 > 309
 	static bool cmp(int a, int b){
 		return to_string(a) + to_string(b) > to_string(a) + to_string(b);
 	}
