@@ -17,7 +17,7 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 ```
 题目想要的是同时还删除一个array 中所有的 val 并且返回array 的前*k *个数据（重要)。
 
-···
+```
 Class Solution
 {
 public:
