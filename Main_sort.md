@@ -22,9 +22,18 @@ Class Solution
 {
 public:
     int removeElement(vector<int>& nums, int val) {
-		//定义两个指针，fast 指针用于遍历整个array，slow 指针用于把array 替换非val的数据。
-		//假如
-	}	
+    //定义两个指针，fast 指针用于遍历整个array，slow 指针用于把array 替换非val的数据。
+    //假如fast 没遇到 val 则 slow 往后移一下然后把fast 的值給slow
+    int slow = -1;
+    
+    for(int fast = 0; fast < nums.size(); ++fast){
+    	if(nums[fast] != val){
+			++slow;
+			nums[slow] = nums[fast];
+		}
+    }
+    return slow+1;
+    }	
 }
 
 ```
