@@ -15,4 +15,16 @@ Output: 2, nums = [2,2,_,_]
 Explanation: Your function should return k = 2, with the first two elements of nums being 2.
 It does not matter what you leave beyond the returned k (hence they are underscores).
 ```
-题目想要的是删除
+题目想要的是同时还删除一个array 中所有的 val 并且返回array 的前*k *个数据（重要)。
+
+···
+Class Solution
+{
+public:
+    int removeElement(vector<int>& nums, int val) {
+		//定义两个指针，fast 指针用于遍历整个array，slow 指针用于把array 替换非val的数据。
+		//假如
+	}	
+}
+
+```
