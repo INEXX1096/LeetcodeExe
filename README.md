@@ -10,7 +10,7 @@ the aim of this post is to record the solution of the leetcode questions
 - 8/03/2023 - Exe9, Exe10, Exe11 and Exe12
 - 8/04/2023 - Exe13, Exe14, Exe15 and Exe16
 - 8/05/2023 - Exe17, Exe18, Exe19 and Exe20
-
+- 8/06/2023 - Exe22, Exe23, Exe24 and Exe25
 
 
 ## Back Tracking 
